@@ -4,6 +4,7 @@
 * subl = Open Sublime
 * subl . = Open current directory in sublime
 * rails new blog -d postgresql --skip-test-unit # (New rails project called blog, with postgres db and no testunit)
+* To start postgres server startpost, to stop stoppost, to restart restartpost
 
 ## Setup pow for new rails app called blog in rails_projects directory
 * cd ~/.pow
@@ -13,4 +14,12 @@
 * Add new gems to gemfile
 * Run bundle install from the terminal
 
+## Github stuff
+* git init (initialises a new git repository in the current directory)
+* git add . (adds all files to the repository)
+* git commit -am "Some Message Here" (commits all files -a with the -m message "Some Message Here")
+* git push (pushes all files to github)
 
+## Creating a new database
+First start postgres (startpost) then update database.yml with correct details!!!!!
+* rake db:create
