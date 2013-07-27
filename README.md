@@ -23,3 +23,5 @@
 ## Creating a new database
 First start postgres (startpost) then update database.yml with correct details!!!!!
 * rake db:create
+* rake db:migrate (do this for new projects and after generating models/migrations)
+* rake db:test:prepare (this updates the test database, do this after migrations!!)

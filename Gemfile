@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
 gem "strong_parameters", "~> 0.2.1"
+gem 'nokogiri', "1.6.0"
 gem 'pg'
 gem "bootstrap-sass", "~> 2.3.0.1"
 
